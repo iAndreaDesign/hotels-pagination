@@ -1,4 +1,4 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component, inject, OnInit, signal } from '@angular/core';
 import { Hotel } from '../../models/hotel.model';
 import { HotelsService } from '../../services/hotels.service';
 import { FormBuilder, FormGroup } from '@angular/forms';
@@ -16,12 +16,12 @@ export class HotelsPageComponent implements OnInit {
   private readonly hotelsService: HotelsService = inject(HotelsService);
   private readonly fb: FormBuilder = inject(FormBuilder);
 
-  public hotels: Hotel[] = [];
+  public hotels = signal<Hotel[]>([]);
   public isFiltersVisible: boolean = false;
   public searchForm: FormGroup;
-  public totalHotels: number = 0;
-  public currentPage: number = 1;
-  public pageSize: number = 16;
+  public totalHotels = signal<number>(0);
+  public currentPage = signal<number>(1);
+  public pageSize = signal<number>(16);
 
   constructor() {
     this.searchForm = this.fb.group({
@@ -83,23 +83,23 @@ export class HotelsPageComponent implements OnInit {
   }
 
   nextPage(): void {
-    if ((this.currentPage * this.pageSize) < this.totalHotels) {
-      this.currentPage++;
+    if ((this.currentPage() * this.pageSize()) < this.totalHotels()) {
+      this.currentPage.update(currentValue => currentValue++);
       this.loadHotels();
     }
   }
 
   prevPage(): void {
-    if (this.currentPage > 1) {
-      this.currentPage--;
+    if (this.currentPage() > 1) {
+      this.currentPage.update(currentValue => currentValue--);
       this.loadHotels();
     }
   }
 
   private applyPagination(data: Hotel[]): void {
-    this.totalHotels = data.length;
-    const start = (this.currentPage - 1) * this.pageSize;
-    const end = start + this.pageSize;
-    this.hotels = data.slice(start, end);
+    this.totalHotels.set(data.length);
+    const start = (this.currentPage() - 1) * this.pageSize();
+    const end = start + this.pageSize();
+    this.hotels.set(data.slice(start, end));
   }
 }
