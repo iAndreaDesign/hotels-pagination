@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Inject, Injectable } from '@angular/core';
+import { inject, Inject, Injectable } from '@angular/core';
 import { Observable, map } from 'rxjs';
 import { Hotel } from '../models/hotel.model';
 
@@ -8,8 +8,7 @@ import { Hotel } from '../models/hotel.model';
 })
 export class HotelsService {
   private readonly bdUrl: string = 'http://localhost:3000/hotels';
-
-  constructor(private httpCLient: HttpClient) {}
+  private httpCLient: HttpClient = inject(HttpClient);
 
   getHotels(): Observable<Hotel[]> {
     return this.httpCLient.get<Hotel[]>(`${this.bdUrl}`);
