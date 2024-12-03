@@ -22,6 +22,7 @@ export class HotelsPageComponent implements OnInit {
   public totalHotels = signal<number>(0);
   public currentPage = signal<number>(1);
   public pageSize = signal<number>(16);
+  public pages = signal<number>(1);
 
   constructor() {
     this.searchForm = this.fb.group({
@@ -30,10 +31,12 @@ export class HotelsPageComponent implements OnInit {
       valoration: 0,
       price: 10000,
     });
+    
   }
 
   ngOnInit(): void {
     this.loadHotels();
+    
   }
 
   loadHotels(): void {
@@ -84,20 +87,21 @@ export class HotelsPageComponent implements OnInit {
 
   nextPage(): void {
     if ((this.currentPage() * this.pageSize()) < this.totalHotels()) {
-      this.currentPage.update(currentValue => currentValue++);
+      this.currentPage.update(currentValue => currentValue + 1);
       this.loadHotels();
     }
   }
 
   prevPage(): void {
     if (this.currentPage() > 1) {
-      this.currentPage.update(currentValue => currentValue--);
+      this.currentPage.update(currentValue => currentValue -1 );
       this.loadHotels();
     }
   }
 
   private applyPagination(data: Hotel[]): void {
     this.totalHotels.set(data.length);
+    this.pages.set(Math.ceil(this.totalHotels()/this.pageSize()));
     const start = (this.currentPage() - 1) * this.pageSize();
     const end = start + this.pageSize();
     this.hotels.set(data.slice(start, end));

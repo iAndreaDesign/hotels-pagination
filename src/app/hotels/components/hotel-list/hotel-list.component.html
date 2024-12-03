@@ -8,6 +8,11 @@
               <span aria-hidden="true">&laquo; Previous</span>
             </a>
           </li>
+          <li class="page-item" style="cursor: pointer" (click)="prevPage.emit()">
+            <a class="page-link" aria-label="Previous">
+              <span aria-hidden="true">{{ currentPage }} de {{ pages }} </span>
+            </a>
+          </li>
           <li class="page-item" style="cursor: pointer" (click)="nextPage.emit()">
             <a class="page-link" aria-label="Next">
               <span aria-hidden="true">Next &raquo;</span>

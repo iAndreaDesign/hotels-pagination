@@ -2,5 +2,5 @@
   <av-hotel-search [searchForm]="searchForm" [isFiltersVisible]="isFiltersVisible" (search)="onSubmit()" (toggleFilters)="toggleFilters()"></av-hotel-search>
 </div>
 <div class="m-4">
-  <av-hotel-list [hotels]="hotels()" [currentPage]="currentPage()" [totalHotels]="totalHotels()" [pageSize]="pageSize()" (nextPage)="nextPage()" (prevPage)="prevPage()"></av-hotel-list>
+  <av-hotel-list [hotels]="hotels()" [currentPage]="currentPage()" [totalHotels]="totalHotels()" [pageSize]="pageSize()" [pages]="pages()"  (nextPage)="nextPage()" (prevPage)="prevPage()"></av-hotel-list>
 </div>
