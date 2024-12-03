@@ -1,7 +1,7 @@
 <div class="d-flex flex-column text-center justify-content-center p-4" style="background-image: url(''); height: 50vh;">
     <h2>The best hotels deals</h2>
     <div class="d-flex align-center justify-content-center">
-    <form class="row col-md-8 col-xs-10" [formGroup]="searchForm" (ngSubmit)="onSearchSubmit()" >
+    <form class="row col-md-8 col-xs-10" [formGroup]="searchForm" (ngSubmit)="onSearchSubmit()">
       <div class="input-group mb-3 m-4 text-center">
         <input type="text" formControlName="hotelName" class="form-control" placeholder="Search your hotel..." aria-label="Search your hotel" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary" type="submit"><i class="bi bi-search"></i></button>
@@ -19,23 +19,23 @@
       @if(isFiltersVisible) {
         <div class="d-flex flex-row justify-content-center text-center m-4" style="align-items: center;">
           <div formGroupName="stars" style="height: fit-content;" class="btn-group me-4" role="group" aria-label="Basic checkbox toggle button group">
-            <input formControlName="0" type="checkbox" class="btn-check" name="btncheckbox" id="btncheckbox1" autocomplete="off" checked>
+            <input formControlName="0" type="checkbox" class="btn-check" name="btncheckbox" id="btncheckbox1" autocomplete="off" checked (change)="onSearchSubmit()">
             <label class="btn btn-outline-secondary" for="btncheckbox1">3 <i class="bi bi-star-fill ps-1"></i></label>
           
-            <input formControlName="1" type="checkbox" class="btn-check" name="btncheckbox" id="btncheckbox2" autocomplete="off" checked>
+            <input formControlName="1" type="checkbox" class="btn-check" name="btncheckbox" id="btncheckbox2" autocomplete="off" checked (change)="onSearchSubmit()">
             <label class="btn btn-outline-secondary" for="btncheckbox2">4 <i class="bi bi-star-fill ps-1"></i></label>
           
-            <input formControlName="2" type="checkbox" class="btn-check" name="btncheckbox" id="btncheckbox3" autocomplete="off" checked>
+            <input formControlName="2" type="checkbox" class="btn-check" name="btncheckbox" id="btncheckbox3" autocomplete="off" checked (change)="onSearchSubmit()">
             <label class="btn btn-outline-secondary" for="btncheckbox3">5 <i class="bi bi-star-fill ps-1"></i></label>
           </div>
           <div class="me-4">
             <label for="valoration" class="form-label">Valoration</label>
-            <input formControlName="valoration" type="range" class="form-range" min="0" max="5" step="0.1" id="valoration">
+            <input formControlName="valoration" type="range" class="form-range" min="0" max="5" step="0.1" id="valoration" (change)="onSearchSubmit()">
             <span>{{ searchForm.value.valoration }}</span>
           </div>
           <div class="me-4">
             <label for="price" class="form-label">Price</label>
-            <input formControlName="price" type="range" class="form-range" min="50" max="1000" id="price" step="10">
+            <input formControlName="price" type="range" class="form-range" min="50" max="1000" id="price" step="10" (change)="onSearchSubmit()">
             <span>{{ searchForm.value.price }}$</span>
           </div>
         </div>

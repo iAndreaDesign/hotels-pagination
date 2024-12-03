@@ -8,8 +8,6 @@ import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
   templateUrl: './hotel-search.component.html'
 })
 export class HotelSearchComponent {
-  private readonly fbb: FormBuilder = inject(FormBuilder);
-  
   @Output() search = new EventEmitter<void>();
   @Input() isFiltersVisible: boolean = false;
   @Output() toggleFilters = new EventEmitter<void>();
