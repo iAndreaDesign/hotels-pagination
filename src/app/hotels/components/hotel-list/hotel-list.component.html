@@ -1,0 +1,27 @@
+
+    <div class="d-flex flex-row" style="justify-content: space-between;">
+      <h3 class="pb-2 justify-content-start">Hotels</h3>
+      <nav>
+        <ul class="pagination justify-content-end">
+          <li class="page-item" style="cursor: pointer" (click)="prevPage.emit()">
+            <a class="page-link" aria-label="Previous">
+              <span aria-hidden="true">&laquo; Previous</span>
+            </a>
+          </li>
+          <li class="page-item" style="cursor: pointer" (click)="nextPage.emit()">
+            <a class="page-link" aria-label="Next">
+              <span aria-hidden="true">Next &raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="row">
+        @for (hotel of hotels; track $index) {
+            <div class="col-xs-6 col-md-3">
+              <av-hotel-card [hotel]="hotel"></av-hotel-card>
+            </div>
+          }
+    </div>
+
+  

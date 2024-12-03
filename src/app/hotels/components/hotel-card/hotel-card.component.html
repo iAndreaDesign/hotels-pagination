@@ -1,0 +1,14 @@
+@if(hotel) {
+  <div class="card mb-3" style="cursor: pointer">
+    <img [src]="hotel.image" class="card-img-top" [alt]="hotel.name" style="height: 200px;">
+    <div class="card-body text-start">
+      <div class="mb-2" style="display: flex; align-items: center; justify-content: space-between;">
+        <p class="card-text text-end d-flex justify-content-end align-center m-0" style="align-items: center"><small class="text-body-secondary">Rate: {{ hotel.rate }}</small></p>
+        <p class="card-text text-end d-flex justify-content-start align-center m-0" style="align-items: center"><small class="text-body-secondary">{{ hotel.stars }}</small><i class="bi bi-star-fill ps-1" style="font-size: 0.75rem;"></i></p>
+      </div>
+      <h5 class="card-title" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">{{ hotel.name }}</h5>
+      <span class="card-text" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><i class="bi bi-geo-alt-fill pe-1" style="font-size: 0.75rem;"></i>{{ hotel.address }}</span>
+      <h4 class="card-title mt-2" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">{{ hotel.price }} $</h4>
+    </div>
+  </div>
+}

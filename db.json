@@ -1,0 +1,904 @@
+{
+  "hotels": [
+    {
+      "id": "6c599f45-318b-487d-bd3e-fbb85de8043a",
+      "name": "Hotel apud fast",
+      "image": "https://via.placeholder.com/240x180/0cd9c3/e2bddf.png?text=",
+      "address": "74554 Bernie Dam",
+      "stars": 2,
+      "rate": 4.1,
+      "price": 944.36
+    },
+    {
+      "id": "613955d5-dd4e-4df2-aeeb-38b40c8f57a9",
+      "name": "Hotel significance incomplete",
+      "image": "https://via.placeholder.com/240x180/573832/aaad9c.jpg?text=",
+      "address": "84746 Carmine Streets",
+      "stars": 5,
+      "rate": 1.3,
+      "price": 683.97
+    },
+    {
+      "id": "8078bbc5-8dc6-4116-b412-57fc11185a6f",
+      "name": "Hotel pawnshop winch",
+      "image": "https://via.placeholder.com/240x180/d07503/552bad.png?text=",
+      "address": "2528 Murray Cape",
+      "stars": 3,
+      "rate": 2,
+      "price": 101.63
+    },
+    {
+      "id": "2c55c7a8-d131-4cf9-b919-e75dd4f93b2e",
+      "name": "Hotel from coolly",
+      "image": "https://via.placeholder.com/240x180/8eaafb/1f2a1d.jpg?text=",
+      "address": "69251 Maiya Lights",
+      "stars": 3,
+      "rate": 1.2,
+      "price": 209.7
+    },
+    {
+      "id": "bfbf4d97-d9ff-4f06-a0c6-ad78625792e6",
+      "name": "Hotel espy phooey",
+      "image": "https://via.placeholder.com/240x180/3aabca/c4eb24.jpg?text=",
+      "address": "55787 Justyn Mountain",
+      "stars": 1,
+      "rate": 0.9,
+      "price": 186.36
+    },
+    {
+      "id": "4164e963-2828-4033-b7be-3089310441d1",
+      "name": "Hotel shy wildly",
+      "image": "https://via.placeholder.com/240x180/68faae/cad83c.png?text=",
+      "address": "104 Lockman Streets",
+      "stars": 1,
+      "rate": 3.9,
+      "price": 644.25
+    },
+    {
+      "id": "770f4393-34a1-4b30-a9ae-0cb60433f6e7",
+      "name": "Hotel sometimes ha",
+      "image": "https://via.placeholder.com/240x180/50aebd/7dde1a.jpeg?text=",
+      "address": "9334 Gutkowski Rapids",
+      "stars": 3,
+      "rate": 2.7,
+      "price": 390.83
+    },
+    {
+      "id": "67def847-b27d-4fa6-a68a-e2abb538b8b9",
+      "name": "Hotel dust what",
+      "image": "https://via.placeholder.com/240x180/0de8d3/8dd4f4.gif?text=",
+      "address": "3350 Tennyson Road",
+      "stars": 1,
+      "rate": 3.8,
+      "price": 143.66
+    },
+    {
+      "id": "d922d23e-699d-45f1-a788-8384add57abb",
+      "name": "Hotel solidly organic",
+      "image": "https://via.placeholder.com/240x180/06003a/99f4cc.gif?text=",
+      "address": "4135 Luther Dale",
+      "stars": 5,
+      "rate": 3.8,
+      "price": 163.71
+    },
+    {
+      "id": "aa3babae-11eb-44b0-90d2-d582aa52751c",
+      "name": "Hotel until drat",
+      "image": "https://via.placeholder.com/240x180/34c2dd/5ed352.png?text=",
+      "address": "62499 Prudence Underpass",
+      "stars": 2,
+      "rate": 1.1,
+      "price": 624.05
+    },
+    {
+      "id": "65e24770-7008-48df-8625-5adbfb5093bd",
+      "name": "Hotel invalidate pish",
+      "image": "https://via.placeholder.com/240x180/33cec8/4b5cae.png?text=",
+      "address": "68213 Junior Fall",
+      "stars": 5,
+      "rate": 4.1,
+      "price": 252.98
+    },
+    {
+      "id": "0bdba1d1-807f-45ff-b1aa-9f0d735a6226",
+      "name": "Hotel other up",
+      "image": "https://via.placeholder.com/240x180/d126af/2c884a.gif?text=",
+      "address": "2000 Mante Wall",
+      "stars": 1,
+      "rate": 0.8,
+      "price": 84.17
+    },
+    {
+      "id": "1349b224-2094-458a-b562-218a0c0d2cde",
+      "name": "Hotel defile how",
+      "image": "https://via.placeholder.com/240x180/f2f35b/9afcee.gif?text=",
+      "address": "1480 Maple Avenue",
+      "stars": 2,
+      "rate": 3.9,
+      "price": 486.41
+    },
+    {
+      "id": "27f73c71-42da-4868-926c-27cc71c60371",
+      "name": "Hotel since ratify",
+      "image": "https://via.placeholder.com/240x180/a7bb8f/aa37b8.webp?text=",
+      "address": "6838 Donny Flat",
+      "stars": 4,
+      "rate": 1.2,
+      "price": 926.81
+    },
+    {
+      "id": "784caf11-d794-42c6-849f-2e163448cfbf",
+      "name": "Hotel huzzah aw",
+      "image": "https://via.placeholder.com/240x180/3cbe4c/826bc5.gif?text=",
+      "address": "58218 Madilyn Falls",
+      "stars": 2,
+      "rate": 0.7,
+      "price": 606.7
+    },
+    {
+      "id": "dca76640-2bc9-422f-830a-eafd3122ea44",
+      "name": "Hotel blindly before",
+      "image": "https://via.placeholder.com/240x180/a67ce2/9fce75.png?text=",
+      "address": "3529 Adelia Key",
+      "stars": 5,
+      "rate": 0.1,
+      "price": 929.27
+    },
+    {
+      "id": "d230c981-e3e9-4260-bb1f-34b9332af064",
+      "name": "Hotel certainly hmph",
+      "image": "https://via.placeholder.com/240x180/dd5bb6/2aaa07.png?text=",
+      "address": "3628 Lubowitz Burg",
+      "stars": 5,
+      "rate": 1.4,
+      "price": 735.92
+    },
+    {
+      "id": "2d939210-1a76-4d6e-b032-53abc2c0362e",
+      "name": "Hotel privacy doze",
+      "image": "https://via.placeholder.com/240x180/bb83ea/f8260c.gif?text=",
+      "address": "59911 McLaughlin Corner",
+      "stars": 4,
+      "rate": 3.3,
+      "price": 641.7
+    },
+    {
+      "id": "04bdac54-07f6-469b-9228-0b37bad9ea58",
+      "name": "Hotel official out",
+      "image": "https://via.placeholder.com/240x180/6071ac/fec98a.gif?text=",
+      "address": "446 Denesik Viaduct",
+      "stars": 5,
+      "rate": 0.9,
+      "price": 319.36
+    },
+    {
+      "id": "dadcf160-f81c-45a5-90e1-f6180f4abd90",
+      "name": "Hotel congo down",
+      "image": "https://via.placeholder.com/240x180/aabaa0/045c7f.jpg?text=",
+      "address": "681 Frances Corner",
+      "stars": 2,
+      "rate": 4.6,
+      "price": 767.15
+    },
+    {
+      "id": "3ef69b9b-9497-4c96-8fe0-2afa6f705c1f",
+      "name": "Hotel sleepily give",
+      "image": "https://via.placeholder.com/240x180/c3a89a/f5aa30.png?text=",
+      "address": "2734 Block Coves",
+      "stars": 1,
+      "rate": 0.1,
+      "price": 668.38
+    },
+    {
+      "id": "04b72334-f0ce-4548-8461-613aeb7522da",
+      "name": "Hotel excluding stone",
+      "image": "https://via.placeholder.com/240x180/915c61/3f38a0.png?text=",
+      "address": "35394 Albin Orchard",
+      "stars": 3,
+      "rate": 0.6,
+      "price": 593.43
+    },
+    {
+      "id": "daae7e97-952c-4ceb-93b0-f514544792d7",
+      "name": "Hotel shush oddball",
+      "image": "https://via.placeholder.com/240x180/baa7ec/a7beb0.webp?text=",
+      "address": "95824 Crist Village",
+      "stars": 4,
+      "rate": 4.3,
+      "price": 980.64
+    },
+    {
+      "id": "ad14b0ca-3775-441c-96d6-0bce413bac2b",
+      "name": "Hotel while upbeat",
+      "image": "https://via.placeholder.com/240x180/fa3f10/701035.webp?text=",
+      "address": "9451 Trey Fork",
+      "stars": 1,
+      "rate": 2.4,
+      "price": 285.9
+    },
+    {
+      "id": "ff16d1bc-b8ef-46de-a711-4d0f63b2e538",
+      "name": "Hotel grim meanwhile",
+      "image": "https://via.placeholder.com/240x180/0bb6dd/4b8f95.png?text=",
+      "address": "60338 Roman Road",
+      "stars": 5,
+      "rate": 1.8,
+      "price": 535.87
+    },
+    {
+      "id": "ad6310d2-02fb-4930-aa03-479ea45e6ef0",
+      "name": "Hotel primp explode",
+      "image": "https://via.placeholder.com/240x180/dc898f/cb030a.webp?text=",
+      "address": "8926 Lexie View",
+      "stars": 3,
+      "rate": 3.1,
+      "price": 953.57
+    },
+    {
+      "id": "21f380b4-d3f3-4eaf-84ed-49cc6a810579",
+      "name": "Hotel worth oh",
+      "image": "https://via.placeholder.com/240x180/bb8cab/4baaed.png?text=",
+      "address": "1826 Airport Road",
+      "stars": 3,
+      "rate": 2.8,
+      "price": 646.79
+    },
+    {
+      "id": "5a4353d9-05ab-4ba2-9907-ec9e6da56c00",
+      "name": "Hotel queasily wherever",
+      "image": "https://via.placeholder.com/240x180/bbfdf8/bc6ea2.webp?text=",
+      "address": "753 Hermann Gardens",
+      "stars": 1,
+      "rate": 4.8,
+      "price": 505.04
+    },
+    {
+      "id": "98862475-0165-4214-9818-8b817600c7cd",
+      "name": "Hotel shalt whereas",
+      "image": "https://via.placeholder.com/240x180/dee3c1/a9fdad.jpeg?text=",
+      "address": "50087 Jenkins Roads",
+      "stars": 4,
+      "rate": 1.7,
+      "price": 403.58
+    },
+    {
+      "id": "68a8d06c-02df-4987-aed4-55ec694bf94e",
+      "name": "Hotel correctly migrant",
+      "image": "https://via.placeholder.com/240x180/8c3630/7cdce7.gif?text=",
+      "address": "66436 Rowland Plains",
+      "stars": 5,
+      "rate": 3.5,
+      "price": 728.3
+    },
+    {
+      "id": "82568c84-34a0-4cd9-a7f5-5609215730cd",
+      "name": "Hotel yet psst",
+      "image": "https://via.placeholder.com/240x180/c78f36/138c4c.png?text=",
+      "address": "93012 Avis Stravenue",
+      "stars": 3,
+      "rate": 2.8,
+      "price": 245.37
+    },
+    {
+      "id": "89b441b4-2a64-4178-9887-fcfcd8d808e7",
+      "name": "Hotel board spreadsheet",
+      "image": "https://via.placeholder.com/240x180/b7b1c8/d3cf22.jpg?text=",
+      "address": "3147 Orchard Road",
+      "stars": 3,
+      "rate": 2.1,
+      "price": 585.52
+    },
+    {
+      "id": "26e94339-9020-4921-bee5-b1d5eb210c82",
+      "name": "Hotel abaft collapse",
+      "image": "https://via.placeholder.com/240x180/adfa31/cd2bdb.png?text=",
+      "address": "959 Katherine Estate",
+      "stars": 1,
+      "rate": 4.5,
+      "price": 413.4
+    },
+    {
+      "id": "d1904b8b-8771-4be5-80f8-10b9573dd911",
+      "name": "Hotel runny intensity",
+      "image": "https://via.placeholder.com/240x180/3e41b6/fe2f05.gif?text=",
+      "address": "22100 Retha Meadows",
+      "stars": 1,
+      "rate": 3.4,
+      "price": 616.57
+    },
+    {
+      "id": "b14dc955-6ce5-44fa-9527-8ac37a48ed39",
+      "name": "Hotel gee for",
+      "image": "https://via.placeholder.com/240x180/91f5fe/8e556d.jpeg?text=",
+      "address": "34638 W Jackson Street",
+      "stars": 1,
+      "rate": 4,
+      "price": 408.91
+    },
+    {
+      "id": "fea541d1-5039-4180-a2c3-dc0378049153",
+      "name": "Hotel how even",
+      "image": "https://via.placeholder.com/240x180/2ce0de/bcb5ec.webp?text=",
+      "address": "9736 Jast Knolls",
+      "stars": 4,
+      "rate": 4.4,
+      "price": 834.24
+    },
+    {
+      "id": "ef2c0f29-0a16-47eb-8ebb-9326907940d5",
+      "name": "Hotel right rehabilitate",
+      "image": "https://via.placeholder.com/240x180/41fbcd/f9242c.webp?text=",
+      "address": "92532 10th Street",
+      "stars": 4,
+      "rate": 0,
+      "price": 681.97
+    },
+    {
+      "id": "c669ca43-4992-4524-8a24-0f956d06eb51",
+      "name": "Hotel watchmaker before",
+      "image": "https://via.placeholder.com/240x180/5fbfd9/cfbfe6.jpeg?text=",
+      "address": "711 The Limes",
+      "stars": 5,
+      "rate": 5,
+      "price": 427.96
+    },
+    {
+      "id": "7027582c-460d-42a7-8f71-5a6a80795313",
+      "name": "Hotel boohoo talking",
+      "image": "https://via.placeholder.com/240x180/cdd3ee/de35b6.png?text=",
+      "address": "448 Kerluke Lakes",
+      "stars": 1,
+      "rate": 0.1,
+      "price": 719.19
+    },
+    {
+      "id": "3ce4452a-ec07-4dd7-b9a2-86cc8d6b8de8",
+      "name": "Hotel hmph timeout",
+      "image": "https://via.placeholder.com/240x180/280fc9/fdc60e.webp?text=",
+      "address": "9781 Schuppe Junctions",
+      "stars": 3,
+      "rate": 2.3,
+      "price": 135.7
+    },
+    {
+      "id": "591bfb90-3819-460d-94a0-3b923add22de",
+      "name": "Hotel fumbling yahoo",
+      "image": "https://via.placeholder.com/240x180/b0a88d/900a1e.jpg?text=",
+      "address": "6940 Tyrique Via",
+      "stars": 2,
+      "rate": 2.3,
+      "price": 378.26
+    },
+    {
+      "id": "585a2376-e549-471e-923b-b309e0dee9e0",
+      "name": "Hotel swipe eventually",
+      "image": "https://via.placeholder.com/240x180/e2d19a/a8b46f.jpeg?text=",
+      "address": "49452 Frami Brooks",
+      "stars": 5,
+      "rate": 4.5,
+      "price": 623.68
+    },
+    {
+      "id": "ba0b37b0-b2b5-418b-909f-8caff7d45bc3",
+      "name": "Hotel essence sheepishly",
+      "image": "https://via.placeholder.com/240x180/b83e58/eee516.png?text=",
+      "address": "1594 Schroeder Well",
+      "stars": 4,
+      "rate": 4.6,
+      "price": 447.01
+    },
+    {
+      "id": "2c4b9a52-1517-4fed-ab0b-2704341e5e7d",
+      "name": "Hotel underneath athwart",
+      "image": "https://via.placeholder.com/240x180/ee8fcf/37dc64.jpg?text=",
+      "address": "989 South Avenue",
+      "stars": 5,
+      "rate": 0.3,
+      "price": 425.47
+    },
+    {
+      "id": "d36ba49b-a372-4afa-afdc-f5a30269b5f2",
+      "name": "Hotel breathalyse closely",
+      "image": "https://via.placeholder.com/240x180/db37be/e517ee.webp?text=",
+      "address": "7091 Mitchell Loop",
+      "stars": 1,
+      "rate": 4.4,
+      "price": 140.83
+    },
+    {
+      "id": "9bbc21c0-5ed3-48fb-927b-8c8b04e1155d",
+      "name": "Hotel an agile",
+      "image": "https://via.placeholder.com/240x180/fc0cc6/630513.jpeg?text=",
+      "address": "947 Camryn Knolls",
+      "stars": 1,
+      "rate": 2.3,
+      "price": 650.44
+    },
+    {
+      "id": "8f569d98-d56a-4bdc-a514-58d97fe5535a",
+      "name": "Hotel boohoo guilt",
+      "image": "https://via.placeholder.com/240x180/2d9ece/46eddc.webp?text=",
+      "address": "240 Buford Plains",
+      "stars": 3,
+      "rate": 4.6,
+      "price": 782.88
+    },
+    {
+      "id": "0a2917d2-8641-4001-a8bc-a937da24afe0",
+      "name": "Hotel despite baggage",
+      "image": "https://via.placeholder.com/240x180/d483f7/b98dc5.jpeg?text=",
+      "address": "77032 Paucek Land",
+      "stars": 4,
+      "rate": 4.5,
+      "price": 842.83
+    },
+    {
+      "id": "9e84d93a-9df9-4e2e-9c5b-df968be24211",
+      "name": "Hotel toward pish",
+      "image": "https://via.placeholder.com/240x180/afabf5/bbfa3b.jpg?text=",
+      "address": "465 Carter Loaf",
+      "stars": 2,
+      "rate": 4.5,
+      "price": 497.85
+    },
+    {
+      "id": "095d9bff-5faf-481f-84bb-3d241c975cf9",
+      "name": "Hotel remote now",
+      "image": "https://via.placeholder.com/240x180/919a6b/b7f5da.gif?text=",
+      "address": "361 Langosh Club",
+      "stars": 5,
+      "rate": 3.7,
+      "price": 128.63
+    },
+    {
+      "id": "3c72fa34-c297-4bc4-9589-7f24bc627069",
+      "name": "Hotel yippee minus",
+      "image": "https://via.placeholder.com/240x180/c43864/0039f2.jpg?text=",
+      "address": "870 Noel Parkways",
+      "stars": 1,
+      "rate": 4.8,
+      "price": 467.89
+    },
+    {
+      "id": "803aa6a9-95e9-46cc-b2e2-fda69470b638",
+      "name": "Hotel ah for",
+      "image": "https://via.placeholder.com/240x180/26f6de/d3453e.jpeg?text=",
+      "address": "82391 Hayes Dale",
+      "stars": 3,
+      "rate": 0.3,
+      "price": 534.96
+    },
+    {
+      "id": "ff22d734-9ae3-4db4-b708-89055578aa54",
+      "name": "Hotel before hence",
+      "image": "https://via.placeholder.com/240x180/f73aba/8dceed.png?text=",
+      "address": "3536 Dickinson Burgs",
+      "stars": 2,
+      "rate": 4.6,
+      "price": 549.53
+    },
+    {
+      "id": "4bb3565a-f656-4b45-ae99-659b1cd9a0a5",
+      "name": "Hotel once ack",
+      "image": "https://via.placeholder.com/240x180/4a3af3/9bf8d3.webp?text=",
+      "address": "249 Brandy Land",
+      "stars": 5,
+      "rate": 2.6,
+      "price": 201.55
+    },
+    {
+      "id": "08390d20-1908-40a4-a805-2e790a87b22d",
+      "name": "Hotel welch collaborate",
+      "image": "https://via.placeholder.com/240x180/a72efc/62d14c.png?text=",
+      "address": "384 S Bridge Street",
+      "stars": 5,
+      "rate": 0.6,
+      "price": 85.11
+    },
+    {
+      "id": "0d25e664-f99b-4c05-84e5-727087a16a4b",
+      "name": "Hotel mockingly delightfully",
+      "image": "https://via.placeholder.com/240x180/54baf0/ad7c6b.jpg?text=",
+      "address": "6102 Chester Road",
+      "stars": 1,
+      "rate": 4.5,
+      "price": 239.72
+    },
+    {
+      "id": "d4158c24-e15e-498f-8d98-0cff6392dc93",
+      "name": "Hotel phooey yearningly",
+      "image": "https://via.placeholder.com/240x180/f6dad4/68abff.jpg?text=",
+      "address": "44368 Danielle Villages",
+      "stars": 5,
+      "rate": 0.9,
+      "price": 818.68
+    },
+    {
+      "id": "ff96a203-b59c-4377-b94c-537120a7022c",
+      "name": "Hotel notable dreamily",
+      "image": "https://via.placeholder.com/240x180/9e7a3a/fabb34.gif?text=",
+      "address": "572 Kendrick Keys",
+      "stars": 3,
+      "rate": 1.9,
+      "price": 455.48
+    },
+    {
+      "id": "c1f16d1f-e5e8-46e4-80b5-c1276d77bade",
+      "name": "Hotel bleakly link",
+      "image": "https://via.placeholder.com/240x180/5be2ec/dec5cd.png?text=",
+      "address": "606 Poplar Avenue",
+      "stars": 2,
+      "rate": 4.9,
+      "price": 191.4
+    },
+    {
+      "id": "850c241e-9fce-44c9-b0d5-ff3c0dee84d5",
+      "name": "Hotel liquid statement",
+      "image": "https://via.placeholder.com/240x180/554db4/bb2790.jpeg?text=",
+      "address": "475 Powlowski Causeway",
+      "stars": 3,
+      "rate": 0.7,
+      "price": 101.34
+    },
+    {
+      "id": "b1c3e36d-626e-4630-8da9-9f7ed9c08afe",
+      "name": "Hotel hm subconscious",
+      "image": "https://via.placeholder.com/240x180/2030f9/14661d.gif?text=",
+      "address": "101 Schinner Points",
+      "stars": 4,
+      "rate": 1.6,
+      "price": 229.08
+    },
+    {
+      "id": "d63cd7d9-b902-47d6-a1e5-6103d0fb3ddb",
+      "name": "Hotel interesting whenever",
+      "image": "https://via.placeholder.com/240x180/d079c8/7b1bff.gif?text=",
+      "address": "16846 S 1st Avenue",
+      "stars": 2,
+      "rate": 1.9,
+      "price": 161.25
+    },
+    {
+      "id": "00c2bde2-8eb6-4a2b-8308-b890a82070ee",
+      "name": "Hotel where treasured",
+      "image": "https://via.placeholder.com/240x180/ccef5e/efd70d.jpeg?text=",
+      "address": "68307 Honeysuckle Close",
+      "stars": 2,
+      "rate": 4.7,
+      "price": 386.53
+    },
+    {
+      "id": "af1cb71b-af41-40c0-8039-5929391d8f80",
+      "name": "Hotel thrift jeopardize",
+      "image": "https://via.placeholder.com/240x180/db001f/7bdc0c.jpg?text=",
+      "address": "663 Jacey Cape",
+      "stars": 1,
+      "rate": 3.1,
+      "price": 740.8
+    },
+    {
+      "id": "7187a81f-ad37-4942-88d8-83962c53c37f",
+      "name": "Hotel like around",
+      "image": "https://via.placeholder.com/240x180/e7ba5a/93fcab.webp?text=",
+      "address": "51079 Carrie Path",
+      "stars": 2,
+      "rate": 1.5,
+      "price": 871.96
+    },
+    {
+      "id": "f9ee4215-3458-4b47-b91f-69cb5b80d37d",
+      "name": "Hotel posterior forenenst",
+      "image": "https://via.placeholder.com/240x180/c1b4f3/b73172.jpg?text=",
+      "address": "90511 Jaquelin Pike",
+      "stars": 5,
+      "rate": 0.6,
+      "price": 586.89
+    },
+    {
+      "id": "14e85711-43a1-4899-9f6a-e43b82ed8931",
+      "name": "Hotel eek bright",
+      "image": "https://via.placeholder.com/240x180/82da6c/88c602.webp?text=",
+      "address": "8136 Hills Court",
+      "stars": 3,
+      "rate": 0,
+      "price": 603.03
+    },
+    {
+      "id": "0e863708-ce60-47de-9a64-089d3e0d4e43",
+      "name": "Hotel excommunicate aha",
+      "image": "https://via.placeholder.com/240x180/f08b5c/a84eba.gif?text=",
+      "address": "88249 Hessel Turnpike",
+      "stars": 3,
+      "rate": 0.5,
+      "price": 681.45
+    },
+    {
+      "id": "37de0a08-81e6-4cef-b778-342c299e039b",
+      "name": "Hotel whenever carpenter",
+      "image": "https://via.placeholder.com/240x180/ee3c1e/e46469.webp?text=",
+      "address": "7164 Haag Club",
+      "stars": 1,
+      "rate": 3.3,
+      "price": 404.76
+    },
+    {
+      "id": "4971edab-dd45-4d20-80fe-28cd5f0a32ea",
+      "name": "Hotel who huzzah",
+      "image": "https://via.placeholder.com/240x180/d17fc8/da6ba3.jpeg?text=",
+      "address": "19525 Hubert Shoal",
+      "stars": 5,
+      "rate": 2.1,
+      "price": 647.38
+    },
+    {
+      "id": "49f7c608-114a-4b9f-b65a-c57b2a2da696",
+      "name": "Hotel um the",
+      "image": "https://via.placeholder.com/240x180/120ced/ddc8bf.gif?text=",
+      "address": "21646 Chestnut Drive",
+      "stars": 4,
+      "rate": 0.1,
+      "price": 901.49
+    },
+    {
+      "id": "b59a6566-2af0-4783-9023-3cd8d91701dc",
+      "name": "Hotel above considering",
+      "image": "https://via.placeholder.com/240x180/2b01de/a98da6.jpeg?text=",
+      "address": "127 Trinity Road",
+      "stars": 2,
+      "rate": 3.6,
+      "price": 88.26
+    },
+    {
+      "id": "b5d90b5a-9f23-47ef-a4d1-570bc039643f",
+      "name": "Hotel zowie meaningfully",
+      "image": "https://via.placeholder.com/240x180/ccd5c4/bbbb8e.jpeg?text=",
+      "address": "91781 Elisa Spurs",
+      "stars": 4,
+      "rate": 4.4,
+      "price": 208.86
+    },
+    {
+      "id": "b73a258a-0d78-4412-99e1-39e63368a16a",
+      "name": "Hotel yippee save",
+      "image": "https://via.placeholder.com/240x180/72b7dd/ec6fc6.jpg?text=",
+      "address": "51310 Drake Garden",
+      "stars": 5,
+      "rate": 4,
+      "price": 436.39
+    },
+    {
+      "id": "5585c5aa-8173-41e6-827c-ee186a119a30",
+      "name": "Hotel next above",
+      "image": "https://via.placeholder.com/240x180/6b329b/9f789c.png?text=",
+      "address": "809 Blake Fort",
+      "stars": 3,
+      "rate": 1.4,
+      "price": 198.2
+    },
+    {
+      "id": "c8d24850-66e1-47ce-9b41-6096b082b4a0",
+      "name": "Hotel aha chat",
+      "image": "https://via.placeholder.com/240x180/be4ec2/0fa7f8.webp?text=",
+      "address": "20703 S Jefferson Street",
+      "stars": 5,
+      "rate": 4.7,
+      "price": 593.12
+    },
+    {
+      "id": "86315751-6b07-4c70-925c-1897c31a7e3c",
+      "name": "Hotel trim yowza",
+      "image": "https://via.placeholder.com/240x180/6859b2/fd8bd2.webp?text=",
+      "address": "709 Schulist Rapids",
+      "stars": 3,
+      "rate": 3.3,
+      "price": 552.24
+    },
+    {
+      "id": "6a136665-7130-4e62-9e35-0d86e4be7ad1",
+      "name": "Hotel fend although",
+      "image": "https://via.placeholder.com/240x180/f67b7d/3140c4.webp?text=",
+      "address": "9768 Zena Isle",
+      "stars": 5,
+      "rate": 2.4,
+      "price": 245.31
+    },
+    {
+      "id": "25af2b90-0049-407e-b095-280f5e07acda",
+      "name": "Hotel successfully lest",
+      "image": "https://via.placeholder.com/240x180/0a08bd/ce3c9b.png?text=",
+      "address": "7980 Buford Pines",
+      "stars": 3,
+      "rate": 2.7,
+      "price": 479.89
+    },
+    {
+      "id": "c7277c8a-12db-46bc-94ae-5395eb75e352",
+      "name": "Hotel above vastly",
+      "image": "https://via.placeholder.com/240x180/1febac/dfd7a5.webp?text=",
+      "address": "800 Roman Road",
+      "stars": 2,
+      "rate": 3.1,
+      "price": 256.33
+    },
+    {
+      "id": "168ccf8f-987b-4af6-90fb-83c75c377088",
+      "name": "Hotel dearest citron",
+      "image": "https://via.placeholder.com/240x180/ddba82/c6fcfb.jpg?text=",
+      "address": "731 Mabelle Lock",
+      "stars": 5,
+      "rate": 1.4,
+      "price": 499.03
+    },
+    {
+      "id": "f1c58745-63fd-4819-8414-05a2249577d2",
+      "name": "Hotel why snipe",
+      "image": "https://via.placeholder.com/240x180/ea2d32/bf9bf5.png?text=",
+      "address": "965 Hollis Inlet",
+      "stars": 4,
+      "rate": 2.8,
+      "price": 882.86
+    },
+    {
+      "id": "608d22e6-6a10-409e-848e-f023117f823a",
+      "name": "Hotel afore fervently",
+      "image": "https://via.placeholder.com/240x180/8bcbea/6a6c2a.jpg?text=",
+      "address": "67816 Torphy Villages",
+      "stars": 3,
+      "rate": 5,
+      "price": 762.35
+    },
+    {
+      "id": "0f1adbb1-2585-4f4e-91e7-b3571d51b813",
+      "name": "Hotel athwart ha",
+      "image": "https://via.placeholder.com/240x180/11e8f3/9f02d4.png?text=",
+      "address": "1831 Charlene Run",
+      "stars": 5,
+      "rate": 5,
+      "price": 362.97
+    },
+    {
+      "id": "e3ff59df-82c1-407c-a92b-78d8ea78965d",
+      "name": "Hotel ack apropos",
+      "image": "https://via.placeholder.com/240x180/a06ab1/197cba.jpeg?text=",
+      "address": "9555 Lance Grove",
+      "stars": 5,
+      "rate": 3.3,
+      "price": 912.43
+    },
+    {
+      "id": "1d2761f0-01be-4f32-a719-388ee011a62e",
+      "name": "Hotel brightly sneaky",
+      "image": "https://via.placeholder.com/240x180/ac94bf/f11a4e.gif?text=",
+      "address": "7191 Old Military Road",
+      "stars": 5,
+      "rate": 1.9,
+      "price": 154.26
+    },
+    {
+      "id": "85ed500e-ca37-4cfb-a80d-ea0317cf173c",
+      "name": "Hotel greatly including",
+      "image": "https://via.placeholder.com/240x180/c07eec/da79ad.webp?text=",
+      "address": "679 Sherman Center",
+      "stars": 5,
+      "rate": 4.4,
+      "price": 286.2
+    },
+    {
+      "id": "08780a94-4f4a-47cd-9a7d-ccce6b777797",
+      "name": "Hotel awkwardly gigantic",
+      "image": "https://via.placeholder.com/240x180/5ea15a/21fd32.gif?text=",
+      "address": "2676 Bauch Common",
+      "stars": 4,
+      "rate": 1.7,
+      "price": 453.02
+    },
+    {
+      "id": "a1732ec8-e7f7-48a1-ab0e-4fb97cf8f754",
+      "name": "Hotel firm once",
+      "image": "https://via.placeholder.com/240x180/727650/b1095b.gif?text=",
+      "address": "8287 Kenny Trafficway",
+      "stars": 5,
+      "rate": 0.7,
+      "price": 391.01
+    },
+    {
+      "id": "3e13518a-d233-44ec-a4ec-db88317e9eb4",
+      "name": "Hotel instead where",
+      "image": "https://via.placeholder.com/240x180/8ba5d3/dad9c9.jpeg?text=",
+      "address": "8590 Pollich Walks",
+      "stars": 5,
+      "rate": 0.8,
+      "price": 879.22
+    },
+    {
+      "id": "f5c8d6b8-c3be-40c4-9b55-c210bdce0f5a",
+      "name": "Hotel bunch zowie",
+      "image": "https://via.placeholder.com/240x180/fb0961/8b2a8c.webp?text=",
+      "address": "3415 The Causeway",
+      "stars": 5,
+      "rate": 1.4,
+      "price": 595.03
+    },
+    {
+      "id": "088d33b9-fc4d-4652-b499-1025a99ccd40",
+      "name": "Hotel ah gah",
+      "image": "https://via.placeholder.com/240x180/d2e4be/f9f71d.jpeg?text=",
+      "address": "2597 Tudor Close",
+      "stars": 5,
+      "rate": 0.3,
+      "price": 429.2
+    },
+    {
+      "id": "32911b82-9120-4739-a5af-35f55d34fa1b",
+      "name": "Hotel ugh optimistically",
+      "image": "https://via.placeholder.com/240x180/cc6551/bfbeac.gif?text=",
+      "address": "955 Rosamond Extensions",
+      "stars": 1,
+      "rate": 3.9,
+      "price": 469.05
+    },
+    {
+      "id": "ae5a4ab4-7fd2-443e-a198-ec617b044aaa",
+      "name": "Hotel wherever inasmuch",
+      "image": "https://via.placeholder.com/240x180/d9e2db/8f4a7e.png?text=",
+      "address": "15631 Bath Road",
+      "stars": 1,
+      "rate": 3.5,
+      "price": 315.14
+    },
+    {
+      "id": "73fbb48e-ee78-4746-b3f5-9fafdf1195d6",
+      "name": "Hotel misread talkative",
+      "image": "https://via.placeholder.com/240x180/dcaf6a/ad0e5b.jpg?text=",
+      "address": "391 Hagenes Avenue",
+      "stars": 4,
+      "rate": 0.2,
+      "price": 931.51
+    },
+    {
+      "id": "044a707b-098b-4851-9ba0-fe91b1050a3b",
+      "name": "Hotel migrate passionate",
+      "image": "https://via.placeholder.com/240x180/0eacd0/faa8ea.jpg?text=",
+      "address": "289 Chapel Road",
+      "stars": 5,
+      "rate": 0.1,
+      "price": 206.51
+    },
+    {
+      "id": "350d5bd3-75cc-4c1a-bb26-e6baf5f32ae1",
+      "name": "Hotel save brr",
+      "image": "https://via.placeholder.com/240x180/c6ce0c/d673df.webp?text=",
+      "address": "999 Towne Spring",
+      "stars": 5,
+      "rate": 0.8,
+      "price": 362.83
+    },
+    {
+      "id": "54fbacd3-f9cf-4f76-a4f3-92b64b088992",
+      "name": "Hotel out flimsy",
+      "image": "https://via.placeholder.com/240x180/956ef4/b61c38.png?text=",
+      "address": "1121 Christine Summit",
+      "stars": 1,
+      "rate": 1.1,
+      "price": 542.32
+    },
+    {
+      "id": "d51c9670-7fa6-4901-8a18-4ec8c218b74b",
+      "name": "Hotel gaseous equalize",
+      "image": "https://via.placeholder.com/240x180/40fff8/3ef4dc.gif?text=",
+      "address": "69173 Tennyson Road",
+      "stars": 1,
+      "rate": 3.5,
+      "price": 427.23
+    },
+    {
+      "id": "2cc26d23-5a8f-48d4-af69-2a84b4f1d4e1",
+      "name": "Hotel lime beseech",
+      "image": "https://via.placeholder.com/240x180/20daef/5daa7c.png?text=",
+      "address": "833 S Maple Street",
+      "stars": 5,
+      "rate": 3,
+      "price": 850.29
+    }
+  ]
+}
