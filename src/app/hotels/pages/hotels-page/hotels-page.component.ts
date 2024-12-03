@@ -25,10 +25,10 @@ export class HotelsPageComponent implements OnInit {
 
   constructor() {
     this.searchForm = this.fb.group({
-      hotelName: [''],
+      hotelName: '',
       stars: this.fb.array([this.fb.control(true), this.fb.control(true), this.fb.control(true)]),
-      valoration: [0],
-      price: [10000],
+      valoration: 0,
+      price: 10000,
     });
   }
 

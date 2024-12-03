@@ -38,6 +38,9 @@
             <input formControlName="price" type="range" class="form-range" min="50" max="1000" id="price" step="10" (change)="onSearchSubmit()">
             <span>{{ searchForm.value.price }}$</span>
           </div>
+          <div>
+            <button class="btn btn-outline-secondary" (click)="resetFilters()"><i class="bi bi-funnel pe-1"></i> Reset Filters</button>
+          </div>
         </div>
       }
     </form>

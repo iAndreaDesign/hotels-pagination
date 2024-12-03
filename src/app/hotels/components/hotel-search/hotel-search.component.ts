@@ -24,4 +24,14 @@ export class HotelSearchComponent {
   showFilters() {
     this.toggleFilters.emit();
   }
+
+  resetFilters() {
+    const hotelNameValue = this.searchForm.get('hotelName')?.value;
+    this.searchForm.reset({
+      hotelName: hotelNameValue,
+      stars: [true, true, true], 
+      valoration: 0,
+      price: 10000
+    });
+  }
 }
