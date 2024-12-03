@@ -3,7 +3,7 @@
     <div class="d-flex align-center justify-content-center">
     <form class="row col-md-8 col-xs-10" [formGroup]="searchForm" (ngSubmit)="onSearchSubmit()">
       <div class="input-group mb-3 m-4 text-center">
-        <input type="text" formControlName="hotelName" class="form-control" placeholder="Search your hotel..." aria-label="Search your hotel" aria-describedby="button-addon2">
+        <input type="text" formControlName="hotelName" class="form-control" placeholder="Search your hotel..." aria-label="Search your hotel" aria-describedby="button-addon2" (change)="onSearchSubmit()">
         <button class="btn btn-outline-secondary" type="submit"><i class="bi bi-search"></i></button>
         <button class="btn btn-outline-secondary" (click)="showFilters()"><i class="bi bi-funnel pe-1"></i>Filter</button>
       </div>
